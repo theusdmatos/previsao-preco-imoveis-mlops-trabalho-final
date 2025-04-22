@@ -1,14 +1,14 @@
 # Pipeline MLOps para Previsão de Preços de Imóveis
 
-Este projeto implementa um pipeline de MLOps completo para previsão de preços de imóveis usando dados do King County, EUA. Desenvolvi este sistema como trabalho final da disciplina de MLOps cursada na UFRGS do Curso de Especialização em Engenharia de Software para Aplicações de Ciência de Dados, incluindo todas as etapas desde a preparação de dados até o monitoramento em produção.
+Este projeto implementa um pipeline de MLOps completo para previsão de preços de imóveis usando dados do King County, EUA (https://www.kaggle.com/datasets/harlfoxem/housesalesprediction). Desenvolvi este sistema como trabalho final da disciplina de MLOps cursada na UFRGS do Curso de Especialização em Engenharia de Software para Aplicações de Ciência de Dados, incluindo todas as etapas desde a preparação de dados até o monitoramento em produção.
 
 ## Estrutura do Projeto
 ```
 ├── dataset/                   # Dados brutos
 │   └── kc_house_data.csv      # Dataset de preços de imóveis
-├── processed_data/            # Dados processados
-├── monitoring_reports/        # Relatórios de monitoramento
-├── inference_logs/            # Logs de inferência
+├── processed_data/            # Dados processados (Gerada na primeira execução ex: python run_pipeline.py)
+├── monitoring_reports/        # Relatórios de monitoramento (Gerada na primeira execução ex: python run_pipeline.py)
+├── inference_logs/            # Logs de inferência  (Gerada na primeira execução ex: python run_pipeline.py)
 ├── data_prep.py               # Script para preparação de dados
 ├── train.py                   # Treinamento de modelos com MLflow
 ├── promote_model.py           # Promoção de modelos
