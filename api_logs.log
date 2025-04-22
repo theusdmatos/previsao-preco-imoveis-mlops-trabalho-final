@@ -1,0 +1,5 @@
+2025-04-18 18:09:36,352 - alembic.runtime.migration - INFO - Context impl SQLiteImpl.
+2025-04-18 18:09:36,353 - alembic.runtime.migration - INFO - Will assume non-transactional DDL.
+2025-04-18 18:09:36,448 - house-price-api - ERROR - Erro na previsão: Invalid attribute key 'stage' specified. Valid keys are '{'version_number', 'name', 'source_path', 'run_id'}'
+2025-04-18 18:23:08,580 - alembic.runtime.migration - INFO - Context impl SQLiteImpl.
+2025-04-18 18:23:08,581 - alembic.runtime.migration - INFO - Will assume non-transactional DDL.
